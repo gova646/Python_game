@@ -1,5 +1,4 @@
 from inputs import get_digits_count,get_user_number,get_masked_user_number,get_user_name
-from random_number_generator import generate_integer
 from cows import get_cows
 
 def __main__():
@@ -8,7 +7,6 @@ def __main__():
     player1_user_number = get_masked_user_number(digits_count,'Player1 Please enter your number')
     player2_name = get_user_name('Player2 Please enter your name')
     player2_user_number = get_masked_user_number(digits_count,'Player 2 Please enter your number')
-    check_number = generate_integer(digits_count)
     
     # cows_count = 0
     while(True):
