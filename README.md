@@ -13,4 +13,7 @@ PLayer 2 guesses the player 1 number as 234 and this is a correct guess.Player 2
 
 **SETUP**
 ---------------------
-Clone the code and run main.py
+1. **Terminal Mode**
+  Clone the main branch code and run main.py
+2. **2player websocket mode**
+   Clone the web_socket branch in client and server systems and run the respective files to enable the 2 player mode and play from different systems.
